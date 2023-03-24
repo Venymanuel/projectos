@@ -32,19 +32,10 @@ header .primiro-filho .logo{
 }
 header .primiro-filho #menu{
    display: none;
+   color: #b816d5;
 }
-.shwo-menu{
-   width: 90%;
-   height: 200px;
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 200px;
-   
-}
-.shwo-menu a {
-   width: 90%;
-   font-size: 1em;
-}
+
+
 .btn-auxilio{
     color: #b816d5;;
     font-size: 1.3em;
