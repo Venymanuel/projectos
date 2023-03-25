@@ -16,8 +16,11 @@ html{
 }
 header {
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.364);
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     height: 100px;
+    width: 98%;
+    display: block;
+    margin: auto;
 }
 header .primiro-filho{
     display: flex;
@@ -26,28 +29,28 @@ header .primiro-filho{
 }
 header .primiro-filho .logo{
     font-size: 2em;
-    color: #b816d5;
+    color: #9d9a9a;
     margin-left: 40px;
     
 }
 header .primiro-filho #menu{
    display: none;
-   color: #b816d5;
+   color: #9d9a9a;
 }
 
 
 .btn-auxilio{
-    color: #b816d5;;
+    color: #9d9a9a;;
     font-size: 1.3em;
-    padding: 4px;
-    border: 1px solid #b816d5;
+    padding: 6px;
+    border: 1px solid #9d9a9a;
     margin-right: 40px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
 
 }
 .btn-auxilio:hover{
-    background-color:  #b816d5;
+    background-color:  #9d9a9a;
     color: white;
 }
 header nav{
@@ -77,9 +80,15 @@ img{
    border-radius: 6px;
 }
 header nav a:hover{
-    color: white;
+    color: #9d9a9a;
     background: #984519;
     border: 1px solid white ;
+}
+main{
+   width: 96vw;
+
+   display: block;
+   margin: auto;
 }
 
 main .img-pprincipa img{
@@ -88,6 +97,7 @@ main .img-pprincipa img{
     margin: auto;
     border-radius: 6px;
     height: 400px;
+    margin-top: 10px;
 }
  .flex{
     padding: 10px;
@@ -105,7 +115,7 @@ main .img-pprincipa img{
  }
 .cadastro{
    border: 1px solid #983d0c;
-   width: 98%;
+   width: 90%;
    display: block;
    margin: auto;
    margin-bottom: 10px;
@@ -113,7 +123,7 @@ main .img-pprincipa img{
 }
 .cadastro .flex p{
    padding: 10px;
-   font-size: 1.6em;
+   font-size: 1em;
    text-transform: capitalize;
    color: #983d0c;
    font-weight: bolder;
@@ -123,7 +133,7 @@ main .img-pprincipa img{
    margin-bottom: 20px;
 }
 .cadastro .flex .box input{
-   width: 180px;
+   width: auto;
    height: 26px;
    padding: 10px;
    border: 1px solid #983d0c;
@@ -131,7 +141,7 @@ main .img-pprincipa img{
 
 }
 select{
-   width: 180px;
+   width: auto;
    height: 26px;
    color: #983d0c;
    border: 1px solid #983d0c;
@@ -251,7 +261,12 @@ select option{
 
 }
 
-
+footer{
+   border: double #f05e0f;
+   width: 98%;
+   display: block;
+   margin: auto;
+}
 footer .box-container{
    margin-top: 20px;
    margin-bottom: 20px;
