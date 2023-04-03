@@ -1,0 +1,216 @@
+
+
+
+@media (min-width:320px) and (max-width:690px) {
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header #logo{
+        margin-left: 20px;
+    }
+    header .mobile{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.334);
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    header .div-search{
+        width: 96%;
+        display: block;
+        background-color: brown;
+        margin: auto;
+
+    }
+    header .div-search input{
+        width: 100%;
+    }
+    header #btn-mobile{
+        display: block;
+        width: 80px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    header #btn-mobile {
+        border: none;
+        background-color: transparent;
+        display: block;
+        border-top: 2px solid ;
+        width: 20px;
+        color: blueviolet;
+        cursor: pointer;
+    }
+   
+ 
+    header #btn-mobile::after,header #btn-mobile::before{
+        position: relative;
+        height: 2px;
+        content: '';
+        margin-top: 5px;
+        display: block;
+        background-color:currentColor;
+        width: 20px;
+        transition: .3s;
+    }
+    header .menu{
+        position: absolute;
+        width: 60%;
+        height: 0px;
+        right: 0px;
+        background-color: black;
+        display: block;
+        z-index: 1000;
+        overflow-y: auto;
+        text-transform: capitalize;
+    }
+    header nav{
+        width: 100%;
+       
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 70px);
+        top: 70px;
+        right: 0px;
+        background-color: rgba(133, 126, 126, 0.5);
+        display: none;
+        z-index: 100;
+
+    }
+    header .menu a{
+        padding: 8px 0;
+        margin: 1em 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+    }
+    header nav.active .menu{
+        height: calc(100vh - 70px);
+
+    }
+    header nav.active{
+        display: block;
+    }
+    header.active #btn-mobile{
+      border-top: transparent;
+
+       
+        
+    }
+    header.active #btn-mobile::after{
+        transform: rotate(135deg);
+    
+        top: -4px;
+
+    }
+    header.active #btn-mobile::before{
+        transform: rotate(-135deg);
+        top: 4px;
+
+
+    }
+    
+    #main{
+        width: 100vw;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    
+    }
+    main .previl .img-card {
+        padding: 1px;
+        box-shadow: 0px 0px 4px rgba(137, 43, 226, 0.401);
+        width: 90px;
+        height:76px;
+    }
+    main .previl .img-card img{
+        width: 100%;
+        height:  100%;
+    }
+    main .profile {
+        display: flex;
+
+    }
+    main .previl-card{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        padding: 6px;
+        margin-right: 4px;
+
+    }
+    main .about-card{
+        display: flex;
+        margin: 8px 4px;
+        padding: 4px 0;
+        font-size: 4.8vw;
+        text-transform: capitalize;
+
+    }
+    main .about-card strong:hover{
+        text-decoration: underline;
+        color: rgb(49, 11, 82);
+        font-weight: bolder;
+    }
+    main .about-card span{
+        display: block;
+        color: blueviolet;
+
+    }
+    main .duration-and-share{
+        margin-top: auto;
+        display: flex;
+        gap: 8px;
+
+    }
+    main .duration-and-share .icon-img{
+        width: 26px;
+        height: 26px;
+        padding: 2px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+
+    }
+    main .duration-and-share .icon-img img{
+        width: 100%;
+        height: 100%;
+
+    }
+    main .duration-and-share h4{
+        font-size: 1em;
+        font-weight: bolder;
+        padding: 2px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    }
+    main .downloand-play{
+        padding: auto;
+      
+    }
+    main .downloand-play .downloand button{
+        margin-top: 40%;
+        padding: 4px;
+        background-color: transparent;
+        color: blueviolet;
+        border: none;
+    }
+    main .downloand-play .downloand{
+        cursor: pointer;
+        display: flex;
+       
+    }
+   
+
+}

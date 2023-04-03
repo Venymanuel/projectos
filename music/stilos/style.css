@@ -1,0 +1,62 @@
+@charset 'UTF-8';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    height: auto;
+    padding:1em 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(10, 9, 9);
+    margin-bottom: 10px;
+}
+header #logo{
+    font-size: 2em;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: blueviolet;
+}
+header .menu{
+    display: flex;
+    gap: .5rem;
+
+}
+header .menu a{
+    display: block;
+    padding: .5em;
+    font-size: 16px;
+    color: blueviolet;
+    transition: .3s;
+}
+header .menu a:hover{
+    background-color: rgba(233, 228, 228, 0.053);
+    border-radius: 5px;
+}
+header #btn-mobile{
+    display: none;
+ 
+}
+header .div-search input{
+    border: none;
+    height: 26px;
+    padding: 0px 8px ;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(210, 206, 206);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+header .div-search input::placeholder{
+    color: blueviolet;
+}
+
+main{
+    margin-top: 20px;
+}
