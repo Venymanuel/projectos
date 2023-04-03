@@ -20,13 +20,14 @@
     }
     header .div-search{
         width: 90%;
+        height: 33px;
         display: block;
         margin: auto;
 
     }
     header .div-search input{
         width: 100%;
-        padding: 10px;
+        height: 100%;
         border: none;
     }
     header #btn-mobile{
