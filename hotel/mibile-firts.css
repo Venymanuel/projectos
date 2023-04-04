@@ -13,12 +13,13 @@
         display: block;
         margin-right: 50px;
         font-size: 34px;
-        color: #b816d5;
+        color: #9d9a9a;
         cursor: pointer;
         margin-bottom: 16px;
     }
     header .primiro-filho #menu:hover{
-        color: rgb(166, 13, 193)
+        color: #9d9a9a;
+
     }
     .segundo-filho{
         display: none;
@@ -49,10 +50,10 @@
         font-size: 1em;
     }
     main .btn-auxilio{
-        color: #b816d5;;
+        color: #9d9a9a;;
         font-size: 12px;
         padding: 4px;
-        border: 1px solid #b816d5;
+        border: 1px solid #9d9a9a;
         margin-right: 6px;
         border-top-right-radius: 8px;
         border-bottom-left-radius: 8px;
