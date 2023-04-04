@@ -7,6 +7,7 @@
         display: flex;
         flex-direction: column;
     }
+  
     header #logo{
         margin-left: 20px;
         margin-top: -4px;
@@ -126,8 +127,9 @@
     main .previl .img-card {
         padding: 1px;
         box-shadow: 0px 0px 4px rgba(137, 43, 226, 0.401);
-        width: 90px;
+        width: 80px;
         height:76px;
+        margin-right:6px;
     }
     main .previl .img-card img{
         width: 100%;
@@ -147,7 +149,8 @@
     }
     main .about-card{
         display: flex;
-        margin: 8px 4px;
+        margin: 4px 0;
+        height: 40px;
         padding: 4px 0;
         font-size: 4vw;
         text-transform: capitalize;
@@ -165,6 +168,7 @@
     }
     main .duration-and-share{
         margin-top: auto;
+        margin-left: -60px;
         display: flex;
         gap: 8px;
 
@@ -191,10 +195,11 @@
         padding: auto;
       
     }
-    main .downloand-play .downloand button{
-        margin-top: 40%;
+    main .downloand-play .downloand span{
+        margin-top: 44%;
         padding: 4px;
         background-color: transparent;
+        cursor: pointer;
         color: blueviolet;
         border: none;
     }
