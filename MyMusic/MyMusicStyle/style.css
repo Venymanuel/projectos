@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     color: white;
+    outline: none;
 
 }
 
@@ -15,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    align-items: center;
 }
 header .side-logo{
     width: 28px;
@@ -27,4 +29,37 @@ header .side-logo img{
 menu ul {
     display: flex;
     gap: 1em;
+    align-items: center;
+}
+header menu ul li .menu-icon{
+    display: block;
+    width: 16px;
+    border-top: 2px solid white;
+}
+header menu ul li .menu-icon::before,header menu ul li .menu-icon::after{
+    content: '';
+    display: block;
+    width: auto;
+    height: 2px;
+    background-color: white;
+    margin-top: 5px;
+}
+header menu ul li .img-icon{
+    width: 20px;
+    height: 20px;
+}
+header menu ul li .img-icon img{
+    width: 100%;
+    height: 100%;
+}
+header menu ul .creat-account{
+    display: block;
+    background-color: white;
+    padding: 6px 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    color: black;
 }
