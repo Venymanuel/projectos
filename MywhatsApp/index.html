@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WhatsApp</title>
+</head>
+<body>
+    <main  class="contenier">
+        <section class="header">
+            <article class="header-contenier">
+                <menu>
+                    <div class="logo">
+                      <input type="file" name="file" id="file" style="display: none;" accept="image/*" >
+                        <label for="file"><img src="icons/porfile-photo.webp" alt="porfile-photo" id="img"></label>
+                    </div>
+                    <ul class="menu-bar">
+                        <li>
+                            <abbr title="cummunities">
+                                <div class="icon">
+                                    <!-- <img src="icons/gruop.png" alt=""> -->
+                                   
+                                    <span class="material-icons">
+                                        <img src="icons/outline_groups_white_24dp.png" alt="">
+                                    </span>
+                                </div>
+                            </abbr>
+                        </li>
+                        <li>
+                            <abbr title="status">
+                                <div class="icon">
+                                    <span class="material-icons">
+                                        <img src="icons/outline_autorenew_white_24dp.png" alt="">
+
+                                    </span>
+                                </div>
+                            </abbr>
+                        </li>
+                        <li>
+                            <abbr title="New chat">
+                                <div class="icon">
+                                    <!-- <img src="icons/sms.png" alt=""> -->
+                                    <span class="material-icons">
+                                        <img src="icons/outline_message_white_24dp.png" alt="">
+                                        </span>
+                                </div>
+                            </abbr>
+                        </li>
+                        <li>
+                            <abbr title="menu">
+                                <div class="icon">
+                                    <span class="material-icons">
+                                      <img src="icons/outline_more_vert_white_24dp.png" alt="">
+                                        </span>
+                                </div>
+                            </abbr>
+                        </li>
+                    </ul>
+                </menu>
+                <div class="header-search">
+                    <input type="search" name="search" id="search" placeholder="Search or start new chat">
+                    <!-- <span class="material-icons">
+                        search
+                        </span>
+
+                        <span class="material-icons">
+                            done
+                            </span>
+                            <span class="material-icons">
+                                done_all
+                                </span> -->
+                    <div class="sms-undread-box">
+                        <span class="sms-undread">
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <article class="nav-bar">
+                <a href="#chat1">
+                    <div class="friend">
+                        <div class="friend-info">
+                            <div class="img-friend">
+                                <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                            </div>
+                            <div class="friend-id">
+                                <h2>paulo</h2>
+                                <span class="typing">Escrevendo...</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="time">
+                                online
+                            </span>
+                            <div class="more">
+                                <span class="material-icons">
+                                    <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat2">
+                    <div class="friend">
+                        <div class="friend-info">
+                            <div class="img-friend">
+                                <img src="whatsApp-img/perfil-elma.jpg" alt="Elma">
+                            </div>
+                            <div class="friend-id">
+                                <h2>Elma</h2>
+                                <span>ok, Feliz noite amor</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="time">
+                                10:18 AM
+                            </span>
+                            <div class="more">
+                                <span class="material-icons">
+                                    <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#chat3">
+    
+                    <div class="friend">
+                        <div class="friend-info" >
+                            <div class="img-friend">
+                                <img src="icons/porfile-photo.webp" alt="jina">
+                            </div>
+                            <div class="friend-id">
+                                <h2>jina</h2>
+                                <span class="notread">tas bem cabeçudo?</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="time">
+                                12:58 PM
+                            </span>
+                           
+                            <div class="more">
+                                <span class="circle-sms">
+                                    1
+                                </span>
+                                <span class="material-icons">
+                                    <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                    </span>
+                                   
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat4">
+                    <div class="friend">
+                        <div class="friend-info">
+                            <div class="img-friend">
+                                <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                            </div>
+                            <div class="friend-id">
+                                <h2>paulo</h2>
+                                <span>ta bom way</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="time">
+                                10:18 PM
+                            </span>
+                            <div class="more">
+                                <span class="material-icons">
+                                 <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                    </span>
+                            </div>
+                        </div>
+                
+                    </div>
+                </a>
+                <a href="#chat5">
+                    
+                    <div class="friend">
+                        <div class="friend-info">
+                            <div class="img-friend">
+                                <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                            </div>
+                            <div class="friend-id">
+                                <h2>paulo</h2>
+                                <span>ta bom way</span>
+                            </div>
+                        </div>
+                        <div>
+              
+                        <span class="time">
+                            10:18 PM
+                        </span>
+                        <div class="more">
+                            <span class="material-icons">
+                                <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+                <a href="#chat6">
+                    <div class="friend">
+                        <div class="friend-info">
+                            <div class="img-friend">
+                                <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                            </div>
+                            <div class="friend-id">
+                                <h2>paulo</h2>
+                                <span>ta bom way</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="time">
+                                10:18 PM
+                            </span>
+                            <div class="more">
+                                <span class="circle-sms">
+                                    1
+                                </span>
+                                <span class="material-icons">
+                                    <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="friend">
+                    <div class="friend-info">
+                        <div class="img-friend">
+                            <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                        </div>
+                        <div class="friend-id">
+                            <h2>paulo</h2>
+                            <span>ta bom way</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="time">
+                            10:18 PM
+                        </span>
+                        <div class="more">
+                           
+                            <span class="material-icons">
+                                <img src="icons/outline_expand_more_white_24dp.png" alt="">
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend">
+                    <div class="friend-info">
+                        <div class="img-friend">
+                            <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                        </div>
+                        <div class="friend-id">
+                            <h2>paulo</h2>
+                            <span>ta bom way</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="time">
+                            10:18 PM
+                        </span>
+                        <div class="more">
+                            <span class="material-icons">
+                                expand_more
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="diplay">
+            <article class="display-box " id="diplay-intro" >
+                <h2>WhatsApp Mensagem</h2>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia facilis, perferendis dicta voluptates deleniti sed asperiores nobis amet, mollitia eligendi nemo. Blanditiis reiciendis itaque ut saepe atque explicabo nam expedita.
+               </p>
+            </article>
+
+            <article class="display-box " id="chat1">
+                <div class="header-sms">
+                    <div class="header-sms-info">
+                        <div class="logo">
+                            <img src="whatsApp-img/paulo.jpg" alt="paulo">
+                        </div>
+                        <div>
+                            <h2>paulo</h2>
+                            <span>online</span>
+                        </div>
+                    </div>
+                
+                <div class="sms-icon">
+                    <ul>
+                        <li>
+                            <img src="icons/outline_search_white_24dp.png" alt="">
+                        </li>
+                        <li>
+                            <abbr title="menu">
+                                <div class="icon">
+                                    <span class="material-icons">
+                                        more_vert
+                                        </span>
+                                </div>
+                            </abbr>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <article class="diplay-sms">
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                </article>
+                <div class="sms-footer">
+                    <p>
+                        po
+                    </p>
+                    <p>
+                        io
+                    </p>
+                    <textarea name="" id="" placeholder="send a sms">
+
+                    </textarea>
+                    <p>
+                        in
+                    </p>
+                </div>
+            </article>
+
+            <article class="display-box " id="chat2" >
+                <div class="header-sms">
+                    <div class="header-sms-info">
+                        <div class="logo">
+                            <img src="whatsApp-img/perfil-elma.jpg" alt="elma">
+                        </div>
+                        <div>
+                            <h2>Elma</h2>
+                            <span>online</span>
+                        </div>
+                    </div>
+                
+                <div class="sms-icon">
+                    <ul>
+                        <li>
+                            search
+                        </li>
+                        <li>
+                            <abbr title="menu">
+                                <div class="icon">
+                                    <span class="material-icons">
+                                        more_vert
+                                        </span>
+                                </div>
+                            </abbr>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <article class="diplay-sms">
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                </article>
+                <div class="sms-footer">
+                    <p>
+                        po
+                    </p>
+                    <p>
+                        io
+                    </p>
+                    <textarea name="" id="" placeholder="send a sms">
+
+                    </textarea>
+                    <p>
+                        in
+                    </p>
+            </article>
+
+            <article class="display-box " id="chat3">
+                <div class="header-sms">
+                    <div class="header-sms-info">
+                        <div class="logo">
+                            <img src="icons/porfile-photo.webp" alt="jina">
+                        </div>
+                        <div>
+                            <h2>Jina</h2>
+                            <span>12:03 AM</span>
+                        </div>
+                    </div>
+                
+                <div class="sms-icon">
+                    <ul>
+                        <li>
+                            search
+                        </li>
+                        <li>
+                            <abbr title="menu">
+                                <div class="icon">
+                                    <span class="material-icons">
+                                        more_vert
+                                        </span>
+                                </div>
+                            </abbr>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <article class="diplay-sms">
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            Que ate da pena, so estaou <br> a falar elas as duas
+                        </p>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="sua Mensagem">
+                            <p>
+                                yh mano
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <p>
+                            idea ali no cachiungo, ta fofo?
+                        </p>
+                    </div>
+                    <div  class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                Nada vc sabe aqui é bem gato <br> e ali em casa?
+                            </p>
+                        </abbr>
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>yh aqui está bem fofo way <br> vem já nao fica burro cassule</p>
+                        </abbr>
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                fica calmo cassule, só falta mais 2 meses
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="i-sms">
+                        <abbr title="Sua Mensagem">
+                            <p>
+                                9dd?
+                            </p>
+                        </abbr>
+                      
+                    </div>
+                    <div class="you-sms">
+                        <abbr title="Mensagem de Paulo">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sitaliquid <br> alias sequi. Voluptates quae officiis aliquid.
+                            </p>
+                        </abbr>
+                    </div>
+                    <div  class="i-sms">
+                        
+                        <abbr title="Sua Mensagem">
+                            <p>
+                              Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Quia <br> officiis earum quae nobis? Dolor, repellendus.
+                            </p>
+                        </abbr>
+                          
+                      
+                    </div>
+                </article>
+                <div class="sms-footer">
+                    <p>
+                        po
+                    </p>
+                    <p>
+                        io
+                    </p>
+                    <textarea name="" id="" placeholder="send a sms">
+
+                    </textarea>
+                    <p>
+                        in
+                    </p>
+            </article>
+
+            <article class="display-box " id="chat4" >
+               <h1>jack</h1>
+            </article>
+            <article class="display-box " id="chat5">
+                <h1>pai</h1>
+            </article>
+            <article class="display-box " id="chat6" >
+                <h1>cesseu</h1>
+            </article>
+            <article class="display-box " id="chat7">
+                <h1>olimpio</h1>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
