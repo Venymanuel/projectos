@@ -988,7 +988,7 @@
 
 }
 main .header{
-    width: 66%;
+    width: 100%;
    
    background-color: var(--app-background);
     
@@ -1396,4 +1396,14 @@ main .nav-bar{
     padding: 2px !important;
     color: rgb(4, 164, 4) !important;
     font-weight: 800 !important;
+}
+
+
+@media (max-width:600px) {
+    .diplay{
+        display: none;
+    }
+    .header{
+        width: 100%;
+    }
 }
