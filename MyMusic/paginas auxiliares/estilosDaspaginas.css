@@ -1,0 +1,78 @@
+@charset 'UTF-8';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+main{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 1;
+    transition: .4s;
+}
+.introDisplay{
+    margin-top: 12px;
+    padding-top: 60px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+.imgIntro{
+    width: 110px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.introDisplay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfilil{
+    line-height: 2em;
+}
+.perfilil h2{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.perfilil h4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+.perfilil p,.perfilil h4{
+    line-height: 1.2em;
+    padding-left: 10px;
+
+}
+main .perfilil nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+}
+main .perfilil nav ul{
+    display: flex;
+    gap: 1em;
+}
+.contenier .listSongs{
+    display: block;
+    background-color: red;
+}
+.contenier .listSongs li{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 16px;
+
+}
+.contenier .listSongs li .nmaeLsit{
+    display: flex;
+    gap: 1em;
+}
